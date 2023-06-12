@@ -1,0 +1,25 @@
+.row.feature-exhibitor{
+    margin: 0;
+    padding: 0;
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 0;
+    
+}
+.row.feature-exhibitor .image-container{
+    border: 1px solid #D1CECE;
+    width: 100%;
+    margin: 5px 0;
+    text-align: center;
+    padding:5px;
+}
+.row.feature-exhibitor .image-container img{
+    width: 100%;
+}
+span.carousel-control-prev-icon,span.carousel-control-next-icon {
+    filter: invert(1) !important;
+}
+span.carousel-control-prev-icon:hover,span.carousel-control-next-icon:hover{
+    opacity: 0.6;
+}
